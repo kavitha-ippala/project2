@@ -8,7 +8,7 @@
     background-image: url(images/heroSectionBackground.png);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     color: white;
     min-height: 60vh;
 }
@@ -41,9 +41,6 @@
     display: none;
 }
 
-
-
-/* ctrl+/ */
 .hero__section_container{
     display: flex;
     flex-direction: column;
@@ -89,13 +86,11 @@
 
 .input_container_search{
     width: 65%;
-    /* border-left: 2px solid #e0e0e0; */
+    
 }
 
-
-
-
 /* media queires */
+
 @media only screen and (max-width: 600px){
     .navbar__menu_container .user__icon{
         display: flex;
@@ -125,8 +120,6 @@
     }
 }
 
-/* px, %, rem, em, vh, vw */
-
 .container{
     margin: 3rem auto;
     width: 90%;
@@ -145,7 +138,7 @@
 }
 
 .we__offer_card{
-    /* background-color: aqua; */
+    /* /* background-color: aqua;  */
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #e0e0e0;
@@ -235,7 +228,6 @@
     left: 0;
     color: white;
     padding: 12px 16px;
-    /* top 12, right 16, bottom 12, left 16 */
     font-size: 0.9rem;
 }
 
@@ -266,17 +258,15 @@
     flex: 2;
 }
 
-/* .get__the_app .semiContainer .left img */
-/*  .semiContainer .left img */
-/* .left img */
+.get__the_app .semiContainer .left img
+ .semiContainer .left img
+.left img
 
 .get__the_app .semiContainer .left img{
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
-
-/* column : 12 */
 
 .get__the_app .semiContainer .right{
     flex: 3;
@@ -364,8 +354,6 @@
     width: 35%;
 }
 
-
-
 @media only screen and (max-width: 1300px){
     .get__the_app .semiContainer .left,
     .get__the_app .semiContainer .right {
@@ -375,7 +363,6 @@
         width: 80%;
     }
 }
-
 
 @media only screen and (max-width: 900px){
   .get__the_app{
@@ -389,7 +376,6 @@
     font-size: medium;
   }
 }
-
 
 .footer{
     width: 100%;
@@ -426,10 +412,9 @@
     gap: 10px;
 }
 
-
 .navigation_container{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(5, 1fr);
     width: 80%;
     margin: auto;
@@ -457,14 +442,13 @@
     font-weight: 300;
 }
 
-
 .footer__link:hover{
     color: black;
 }
 
 
 .social__links_container button{
-    /* color: white; */
+    
     background-color: black;
     height: 25px;
     width: 25px;
